@@ -1,0 +1,15 @@
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.season-1-img {
+  border-radius: 10px;
+}
+   
+/* .season-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+} */
