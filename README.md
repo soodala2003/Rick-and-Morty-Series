@@ -19,8 +19,16 @@ https://github.com/soodala2003/Rick-and-Morty-Series.git
 - Netlify for deployment
 
 3. `Home` page (http://localhost:3000)
-- Shows all series of <litalic>Rick and Morty</litalic>
+- Shows all series of Rick and Morty
 
 4. `Charcters` page (http://localhost:3000/character)
 - Shows all characters of Rick and Morty if click on `Characters` in the navbar
-- Shows the detail of each character if click on the name of each character 
+- Shows the detail of each character if click on the name of each character ()
+
+5. `Locations` page (http://localhost:3000/location)
+- Shows all locations of Rick and Morty if click on `Locations` in the navbar
+- Shows the detail of each location and  if click on the `Residents` of each location 
+
+6. `Episodes` page (http://localhost:3000/episode)
+- Shows all episodes of Rick and Morty if click on `Episodes` in the navbar
+- Shows the detail of each episodes and characters' url (up to 5) in the episode if click on the `Characters` of each episode 
