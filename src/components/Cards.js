@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Cards.css";
 
+
 export const CharacterCard = ({ character }) => {
   return (
     <div className="character-card">
