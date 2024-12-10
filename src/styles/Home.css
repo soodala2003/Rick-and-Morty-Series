@@ -1,6 +1,36 @@
 .home {
   text-align: center;
+  display: flex;
   padding: 20px;
+}
+
+/*.season-list {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center; */
+  /* text-align: center; */
+  /* border: 1px black solid;  */
+ /*  flex-wrap: wrap;
+  align-content: center;  */
+  /* align-items: denter; 
+}*/
+
+
+.title {
+  border: 1px black solid;
+  width: 300px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: rgba(6, 6, 69, 0.964);
+  color: white;
+}
+
+.season {
+  border: 1px black solid;
+  width: 300px;
+  margin-left: 25px;
+  background-color: rgba(6, 6, 69, 0.964);
+  color: white;
 }
 
 .season-1-img {
@@ -12,4 +42,4 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-} */
+}  */
