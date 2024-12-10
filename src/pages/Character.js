@@ -14,7 +14,6 @@ export default function Character () {
         const result = await response.json();
         const data = result.results;
         setCharacters(data);
-        console.log(data[0]);
       } catch (e) {
         console.error(e);
       }
