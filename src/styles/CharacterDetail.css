@@ -1,0 +1,19 @@
+.character {
+    background-color: hsla(0, 48%, 87%, 0.756);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    margin: 20px;
+    
+}
+ 
+.character img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+  
