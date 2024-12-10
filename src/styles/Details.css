@@ -21,6 +21,10 @@
     border-radius: 20px;
 }
 
+.location-container li, .episode-container li{
+    list-style-type: none;
+}
+
 .episodes {
     text-align: center;
 }

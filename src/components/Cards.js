@@ -18,7 +18,6 @@ export const LocationCard = ({ location }) => {
       <h2>Type: {location.type}</h2>
       <h2>Dimension: {location.dimension}</h2>
       <Link to={`/location/${location.id}`}><b>Residents</b></Link>
-      {/* <h2>Residents: {location.residents[0]}</h2>  */}
     </div>
   );
 } 
@@ -27,9 +26,9 @@ export const EpisodeCard = ({ episode }) => {
   return (
     <div className="episode-card">
       <h1>{episode.name}</h1>
-      <h2>Air_Date: {episode.type}</h2>
+      <h2>Air_Date: {episode.air_date}</h2>
       <h2>Episode: {episode.episode}</h2>
-      <h2>Characters: {/* {location.residents[0]} */}</h2>
+      <Link to={`/episode/${episode.id}`}><b>Characters</b></Link>
     </div>
   );
 } 

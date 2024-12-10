@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-//import "../styles/CharacterDetail.css";
+import "../styles/Details.css";
 
-
-const LocationResidents = () => {
+const LocationDetail = () => {
   const { id } = useParams();
   const [location, setLocation] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -11,7 +10,7 @@ const LocationResidents = () => {
   useEffect(() => {
     const baseURL = "https://rickandmortyapi.com/api/";
 
-    const getLocationResidents = async () => {
+    const getLocationDetail = async () => {
       try {
         const response = await fetch(`${baseURL}location/${id}`);
         const data = await response.json();
@@ -22,7 +21,7 @@ const LocationResidents = () => {
         setLoading(false);
       }
     };
-    getLocationResidents();
+    getLocationDetail();
   }, [id]);
 
   if (loading) return <div className="loading">Loading...</div>;
@@ -39,10 +38,17 @@ const LocationResidents = () => {
         </div>
       </div>
       <div>
-        <h2>Residents: {location.residents[0]}</h2>
+        <h2>Residents: </h2>
+          <ul>
+            <li>{location.residents[0]}</li>
+            <li>{location.residents[1]}</li>
+            <li>{location.residents[2]}</li>
+            <li>{location.residents[3]}</li>
+            <li>{location.residents[4]}</li>
+          </ul>
       </div>
     </div>
   );
 };
 
-export default LocationResidents;
+export default LocationDetail;
