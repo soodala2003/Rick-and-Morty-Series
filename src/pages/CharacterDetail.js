@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../styles/Details.css";
 
+
 const CharacterDetail = () => {
   const { id } = useParams();
   const [character, setCharacter] = useState(null);

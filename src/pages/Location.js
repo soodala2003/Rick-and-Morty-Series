@@ -37,7 +37,6 @@ export default function Character () {
     } 
   }
   
-  // loaded function for when data is fetched.
   const loaded = () => {
     return (
       <div className="main">

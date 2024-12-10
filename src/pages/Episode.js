@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { EpisodeCard } from "../components/Cards";
 import "../styles/Character.css";
 
+
 export default function Character () {
   const [episodes, setEpisodes] = useState([]);
   const [page, setPage] = useState(0);

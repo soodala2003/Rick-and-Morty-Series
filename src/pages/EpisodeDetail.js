@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../styles/Details.css";
 
+
 const EpisodeDetail = () => {
   const { id } = useParams();
   const [episode, setEpisodes] = useState(null);

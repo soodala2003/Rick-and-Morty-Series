@@ -7,7 +7,6 @@ import Rick_and_Morty_season_5 from "../images/Rick_and_Morty_season_5.jpg";
 import Rick_and_Morty_season_6 from "../images/Rick_and_Morty_season_6.jpg";
 import Rick_and_Morty_season_7 from "../images/Rick_and_Morty_season_7.jpg";
 
-
 const Home = () => {
   return (
     <div className="home">

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "../styles/Details.css";
 
+
 const LocationDetail = () => {
   const { id } = useParams();
   const [location, setLocation] = useState(null);
