@@ -1,0 +1,8 @@
+.home {
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(244, 223, 238);
+  }
