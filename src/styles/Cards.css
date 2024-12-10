@@ -1,0 +1,43 @@
+.character-card {
+    background-color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+.location-card {
+    background-color: rgb(80, 218, 231);
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+
+.episode-card {
+    background-color: rgb(244, 141, 155);
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+}
+   
+.character-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+   
+.character-card h3 {
+    margin: 10px 0;
+}
+   
+.character-card a {
+    color: #007bff;
+    text-decoration: none;
+}

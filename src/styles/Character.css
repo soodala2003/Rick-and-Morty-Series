@@ -1,3 +1,7 @@
+.main {
+  background-color: rgb(244, 223, 238);
+}
+
 .btn{
   padding: 10px 20px;
   font-size: 16px;
@@ -14,18 +18,17 @@
   justify-content: space-evenly;
 }
    
-.characters {
+.characters, .locations, .episodes {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.characters li {
+.characters li, .locations li, .episodes li {
   list-style-type: none;
 }
 
-.character-list {
-  margin-top: 20px;
+.character-list, .location-list, .episodes-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

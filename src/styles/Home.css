@@ -2,44 +2,93 @@
   text-align: center;
   display: flex;
   padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(244, 223, 238);
 }
 
-/*.season-list {
-  display: flex;
-  flex-direction: column;
-  /*justify-content: center; */
-  /* text-align: center; */
-  /* border: 1px black solid;  */
- /*  flex-wrap: wrap;
-  align-content: center;  */
-  /* align-items: denter; 
-}*/
+.season-list {
+  margin-left: 20px;
+}
 
-
-.title {
-  border: 1px black solid;
-  width: 300px;
-  margin-left: 25px;
-  margin-right: 25px;
+.title1 {
+  font-style: italic;
   background-color: rgba(6, 6, 69, 0.964);
   color: white;
 }
 
-.season {
-  border: 1px black solid;
-  width: 300px;
-  margin-left: 25px;
+.season1 {
   background-color: rgba(6, 6, 69, 0.964);
   color: white;
 }
 
-.season-1-img {
+.title2 {
+  font-style: italic;
+  background-color: rgba(184, 240, 243, 0.964);
+  color: black;
+}
+
+.season2 {
+  background-color: rgba(184, 240, 243, 0.964);
+  color: black;
+}
+
+.title3 {
+  font-style: italic;
+  background-color: #136525f6;
+  color: white;
+}
+
+.season3 {
+  background-color: #136525f6;
+  color: white;
+}
+
+.title4 {
+  font-style: italic;
+  background-color: rgb(112, 13, 116);
+  color: white;
+}
+
+.season4 {
+  background-color: rgb(112, 13, 116);
+  color: white;
+}
+
+.title5 {
+  font-style: italic;
+  background-color: hsla(53, 60%, 72%, 0.965);
+  color: black;
+}
+
+.season5 {
+  background-color: hsla(53, 60%, 72%, 0.965);
+  color: black;
+}
+
+.title6 {
+  font-style: italic;
+  background-color: rgba(21, 21, 39, 0.964);
+  color: white;
+}
+
+.season6 {
+  background-color: rgba(21, 21, 39, 0.964);
+  color: white;
+}
+
+.title7 {
+  font-style: italic;
+  background-color: #0b4119f6;
+  color: white;
+}
+
+.season7 {
+  background-color: #0b4119f6;
+  color: white;
+}
+
+.season-img {
   border-radius: 10px;
 }
    
-/* .season-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}  */
