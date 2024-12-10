@@ -17,7 +17,8 @@ export const LocationCard = ({ location }) => {
       <h1>{location.name}</h1>
       <h2>Type: {location.type}</h2>
       <h2>Dimension: {location.dimension}</h2>
-      <h2>Residents: {/* {location.residents[0]} */}</h2>
+      <Link to={`/location/${location.id}`}><b>Residents</b></Link>
+      {/* <h2>Residents: {location.residents[0]}</h2>  */}
     </div>
   );
 } 

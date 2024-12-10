@@ -6,6 +6,7 @@ import Character from "./pages/Character";
 import Location from "./pages/Location";
 import Episode from "./pages/Episode";
 import CharacterDetail from "./pages/CharacterDetail";
+import LocationResidents from "./pages/LocationResidents";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/location" element={<Location />} /> 
         <Route exact path="/episode" element={<Episode />} /> 
         <Route exact path="/character/:id" element={<CharacterDetail />} />
+        <Route exact path="/location/:id" element={<LocationResidents />} />
       </Routes>
     </Router>
   );

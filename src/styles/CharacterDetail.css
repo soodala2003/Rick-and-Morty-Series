@@ -1,3 +1,7 @@
+.character-container {
+    display: flex;
+}
+
 .character {
     background-color: hsla(0, 48%, 87%, 0.756);
     padding: 20px;
@@ -15,5 +19,9 @@
     object-fit: cover;
     margin-top: 20px;
     border-radius: 20px;
+}
+
+.episodes {
+    text-align: center;
 }
   
