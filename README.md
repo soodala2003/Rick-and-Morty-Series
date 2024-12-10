@@ -27,7 +27,7 @@ https://github.com/soodala2003/Rick-and-Morty-Series.git
 
 5. `Locations` page (http://localhost:3000/location)
 - Shows all locations of Rick and Morty if click on `Locations` in the navbar
-- Shows the detail of each location and  if click on the `Residents` of each location 
+- Shows the detail of each location and characters' url (up to 5) in the location if click on the `Residents` of each location 
 
 6. `Episodes` page (http://localhost:3000/episode)
 - Shows all episodes of Rick and Morty if click on `Episodes` in the navbar
