@@ -6,8 +6,8 @@ import Character from "./pages/Character";
 import Location from "./pages/Location";
 import Episode from "./pages/Episode";
 import CharacterDetail from "./pages/CharacterDetail";
-import LocationResidents from "./pages/LocationResidents";
-
+import LocationDetail from "./pages/LocationDetail";
+import EpisodeDetail from "./pages/EpisodeDetail";
 
 function App() {
   return (
@@ -19,7 +19,8 @@ function App() {
         <Route exact path="/location" element={<Location />} /> 
         <Route exact path="/episode" element={<Episode />} /> 
         <Route exact path="/character/:id" element={<CharacterDetail />} />
-        <Route exact path="/location/:id" element={<LocationResidents />} />
+        <Route exact path="/location/:id" element={<LocationDetail />} />
+        <Route exact path="/episode/:id" element={<EpisodeDetail />} />
       </Routes>
     </Router>
   );
