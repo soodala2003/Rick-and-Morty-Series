@@ -1,4 +1,4 @@
-# https://github.com/soodala2003/SBA320-Rick-and-Morty-Series.git
+# SBA320-Rick-and-Morty-Series.git
 
 # Getting Started with Create React App
 
